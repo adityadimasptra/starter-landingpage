@@ -51,7 +51,7 @@ export default function Home() {
 
         <div className="py-14 flex justify-center text-cente mx-48" id="certificate">
           {supported.map((item, index) => (
-              <Image className="w-20 object-contain mx-5" key={index} src={item.src} alt={item.name}/>
+              <Image width={35} height={35} key={index} src={item.src} alt={item.name}/>
           ))}
         </div>
 

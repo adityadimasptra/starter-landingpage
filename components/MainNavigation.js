@@ -26,7 +26,9 @@ export default function Navbar() {
                       <Image
                         alt="Gatau"
                         className="h-8 w-auto sm:h-10"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                        width={35}
+                        height={35}
+                        src="/logo.png"
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -65,7 +67,9 @@ export default function Navbar() {
                     <div>
                       <Image
                         className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                        src="/logo.png"
+                        width={35}
+                        height={35}
                         alt="nothing"
                       />
                     </div>
