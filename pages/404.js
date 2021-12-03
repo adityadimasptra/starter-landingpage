@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
-import Head from 'next/head'
 
 const NotFound = () => {
   const router = useRouter()
@@ -12,7 +11,7 @@ const NotFound = () => {
       // router.go(1)
       router.push('/')
     }, 3000)
-  }, [])
+  })
 
   return (
     <div className="not-found">

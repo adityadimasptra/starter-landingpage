@@ -1,4 +1,6 @@
 
+import Image from 'next/image'
+
 export default function Footer() {
   return (
     <div className="py-12 bg-green-800 text-white clear-both">
@@ -8,27 +10,30 @@ export default function Footer() {
             <a
               href="https://www.instagram.com/adityadimasptra/"
               target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center justify-center"
             >
-              <img className="fill-white" src="/instagram.svg" alt="site logo" width={35} height={35} />
+              <Image className="fill-white" src="/instagram.svg" alt="site logo" width={35} height={35} />
             </a>
           </div>
           <div className="mx-2 inline-flex">
             <a
               href="https://www.facebook.com/adityadimasptra"
               target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center justify-center"
             >
-              <img src="/facebook.svg" alt="site logo" width={35} height={35} />
+              <Image src="/facebook.svg" alt="site logo" width={35} height={35} />
             </a>
           </div>
           <div className="mx-2 inline-flex">
             <a
               href="https://wa.me/15551234567"
               target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center justify-center"
             >
-              <img src="/whatsapp.svg" alt="site logo" width={35} height={35} />
+              <Image src="/whatsapp.svg" alt="site logo" width={35} height={35} />
             </a>
           </div>
         </div>
