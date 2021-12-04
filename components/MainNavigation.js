@@ -13,8 +13,8 @@ const navigation = [
 
 export default function Navbar() {
   return (
-    <div className="h-20">
-      <div className="w-full bg-white py-6 fixed items-center inset-x-0 shadow-sm">
+    <div className="h-20 z-20">
+      <div className="w-full bg-white py-6 fixed z-50 items-center inset-x-0 shadow-sm">
         <div className="relative z-10 lg:max-w-2xl lg:w-full">
           <Popover>
             <div className="relative px-4 sm:px-6 lg:px-8">
