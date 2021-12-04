@@ -8,10 +8,10 @@ const About = () => {
         <meta name="keywords" content="ninjas"/>
       </Head>
       <div>
-        <h1 className="">About</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro reiciendis ea quibusdam nemo nobis hic iure quos odio corporis, laudantium animi laborum voluptatem quia, veniam fuga aperiam officia sequi!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro reiciendis ea quibusdam nemo nobis hic iure quos odio corporis, laudantium animi laborum voluptatem quia, veniam fuga aperiam officia sequi!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro reiciendis ea quibusdam nemo nobis hic iure quos odio corporis, laudantium animi laborum voluptatem quia, veniam fuga aperiam officia sequi!</p>
+        <div className="flex flex-col items-center my-2 py-14">
+          <h1 className="text-5xl text-gray-500">About</h1>
+          <hr className="w-20 border-t-4 border-green-900 border-opacity-50" />
+        </div>
       </div>
     </>
   );

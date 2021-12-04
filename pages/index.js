@@ -42,11 +42,10 @@ export default function Home() {
           </div>
         </div>
 
-        {/* <div className="py-14 flex justify-center text-center mx-48" id="certificate">
-          {supported.map((item, index) => (
-              <img className="h-20 mx-6" key={index} src={item.src} alt={item.name}/>
-          ))}
-        </div> */}
+        <div className="flex flex-col items-center my-2 py-14">
+          <h1 className="text-5xl text-gray-500">Our Features</h1>
+          <hr className="w-20 border-t-4 border-green-900 border-opacity-50" />
+        </div>
 
         {/* CTA */}
         <div className="py-12 bg-gray-50" id="cta">

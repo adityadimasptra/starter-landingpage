@@ -7,9 +7,9 @@ import Image from 'next/image'
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Products', href: 'products' },
-  { name: 'Gallery', href: 'gallery' },
-  { name: 'About', href: 'about' },
+  { name: 'Products', href: '/products' },
+  { name: 'Gallery', href: '/gallery' },
+  { name: 'About', href: '/about' },
 ]
 
 export default function Navbar() {
@@ -26,7 +26,7 @@ export default function Navbar() {
                       <a>
                         <span className="sr-only">Workflow</span>
                         <Image
-                          alt="Gatau"
+                          alt="treescoco-logo"
                           width={115}
                           height={35}
                           src="/treescoco_logo.png"
@@ -70,10 +70,10 @@ export default function Navbar() {
                   <div className="px-5 pt-4 flex items-center justify-between">
                     <div>
                       <Image
-                        src="/logo.png"
+                        src="/treescoco_logo.png"
                         width={115}
                         height={35}
-                        alt="nothing"
+                        alt="treescoco-logo"
                       />
                     </div>
                     <div className="-mr-2">

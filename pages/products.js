@@ -60,6 +60,10 @@ export default function Products() {
         <meta name="keywords" content="domain" />
       </Head>
       <div>
+        <div className="flex flex-col items-center my-2 py-14">
+          <h1 className="text-5xl text-gray-500">Our Products</h1>
+          <hr className="w-32 border-t-4 border-green-900 border-opacity-50" />
+        </div>
         <ul className="divide-y divide-gray-200">
           {items.map((item, index) => (
             <ItemList key={index} item={item} />
