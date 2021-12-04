@@ -23,7 +23,7 @@ const Gallery = () => {
       <meta name="keywords" content="ninjas"/>
     </Head>
     <div>
-      <div className="grid :grid-flow-col" id="hero">
+      <div className="grid md:grid-flow-col" id="hero">
         <div className="mx-auto px-6 lg:px-8 flex items-center">
           <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iusto corporis. In aspernatur possimus a! Quis temporibus magnam similique, aliquam, accusantium officiis voluptates rerum explicabo veritatis, dolorem deserunt enim accusamus?</h1>
         </div>
