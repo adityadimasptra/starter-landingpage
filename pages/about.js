@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>Domain | About</title>
+        <title>Treescoco | About</title>
         <meta name="keywords" content="ninjas"/>
       </Head>
       <div>

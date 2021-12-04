@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Domain</title>
+        <title>Treescoco</title>
         <meta name="keywords" content="domain"/>
       </Head>
       <div>
@@ -68,7 +68,7 @@ export default function Home() {
               <div className="inline-flex rounded-md shadow">
                 <a
                   href="#"
-                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700"
                 >
                   Get started
                 </a>
@@ -76,7 +76,7 @@ export default function Home() {
               <div className="ml-5 inline-flex rounded-md shadow">
                 <a
                   href="#"
-                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50"
+                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-green-600 bg-white hover:bg-green-50"
                 >
                   Learn more
                 </a>

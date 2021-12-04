@@ -15,19 +15,19 @@ export default function Navbar() {
   return (
     <div className="h-20 z-20">
       <div className="w-full bg-white py-6 fixed z-50 items-center inset-x-0 shadow-sm">
-        <div className="relative z-10 lg:max-w-2xl lg:w-full">
+        <div className="relative z-10 lg:w-full">
           <Popover>
             <div className="relative px-4 sm:px-6 lg:px-8">
-              <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
+              <nav className="relative flex items-center justify-between sm:h-10" aria-label="Global">
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                    <a href="www.facebook.com">
+                    <a href="/">
                       <span className="sr-only">Workflow</span>
                       <Image
                         alt="Gatau"
                         width={115}
                         height={35}
-                        src="/logo.png"
+                        src="/treescoco_logo.png"
                       />
                     </a>
                     <div className="mr-2 flex items-center md:hidden">
