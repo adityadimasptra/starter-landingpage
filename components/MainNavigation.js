@@ -25,13 +25,12 @@ export default function Navbar() {
                       <span className="sr-only">Workflow</span>
                       <Image
                         alt="Gatau"
-                        className="h-8 w-auto sm:h-10"
-                        width={35}
+                        width={115}
                         height={35}
                         src="/logo.png"
                       />
                     </a>
-                    <div className="-mr-2 flex items-center md:hidden">
+                    <div className="mr-2 flex items-center md:hidden">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Open main menu</span>
                         <MenuIcon className="h-6 w-6" aria-hidden="true" />
@@ -41,7 +40,7 @@ export default function Navbar() {
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                   {navigation.map((item) => (
-                    <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900">
+                    <a key={item.name} href={item.href} className="p-3 font-medium text-gray-500 hover:text-gray-900 border-b-2 hover:border-green-800 border-opacity-0">
                       {item.name}
                     </a>
                   ))}
@@ -66,9 +65,8 @@ export default function Navbar() {
                   <div className="px-5 pt-4 flex items-center justify-between">
                     <div>
                       <Image
-                        className="h-8 w-auto"
                         src="/logo.png"
-                        width={35}
+                        width={115}
                         height={35}
                         alt="nothing"
                       />

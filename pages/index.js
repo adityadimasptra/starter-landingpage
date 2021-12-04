@@ -49,9 +49,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="py-14 flex justify-center text-cente mx-48" id="certificate">
+        <div className="py-14 flex justify-center text-center mx-48" id="certificate">
           {supported.map((item, index) => (
-              <Image width={35} height={35} key={index} src={item.src} alt={item.name}/>
+              <img className="h-20 mx-6" key={index} src={item.src} alt={item.name}/>
           ))}
         </div>
 
