@@ -1,5 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from 'react'
+import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
@@ -21,15 +22,17 @@ export default function Navbar() {
               <nav className="relative flex items-center justify-between sm:h-10" aria-label="Global">
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                    <a href="/">
-                      <span className="sr-only">Workflow</span>
-                      <Image
-                        alt="Gatau"
-                        width={115}
-                        height={35}
-                        src="/treescoco_logo.png"
-                      />
-                    </a>
+                    <Link href="/">
+                      <a>
+                        <span className="sr-only">Workflow</span>
+                        <Image
+                          alt="Gatau"
+                          width={115}
+                          height={35}
+                          src="/treescoco_logo.png"
+                        />
+                      </a>
+                    </Link>
                     <div className="mr-2 flex items-center md:hidden">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Open main menu</span>
@@ -40,9 +43,11 @@ export default function Navbar() {
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                   {navigation.map((item) => (
-                    <a key={item.name} href={item.href} className="p-3 font-medium text-gray-500 hover:text-gray-900 border-b-2 hover:border-green-800 border-opacity-0">
-                      {item.name}
-                    </a>
+                    <Link href={item.href} key={item.name}>
+                      <a className="p-3 font-medium text-gray-500 hover:text-gray-900 border-b-2 hover:border-green-800 border-opacity-0">
+                        {item.name}
+                      </a>
+                    </Link>
                   ))}
                 </div>
               </nav>

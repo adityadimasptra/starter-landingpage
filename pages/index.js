@@ -1,12 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 
-const supported = [
-  {name: 'Youtube', src: '/youtube-logo.png'},
-  {name: 'Adobe', src: '/adobe.png'},
-  {name: 'Microsoft', src: '/microsoft.png'},
-  {name: 'Kominfo', src: '/kominfo.png'}
-]
 export default function Home() {
   return (
     <>
@@ -49,17 +42,17 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="py-14 flex justify-center text-center mx-48" id="certificate">
+        {/* <div className="py-14 flex justify-center text-center mx-48" id="certificate">
           {supported.map((item, index) => (
               <img className="h-20 mx-6" key={index} src={item.src} alt={item.name}/>
           ))}
-        </div>
+        </div> */}
 
         {/* CTA */}
         <div className="py-12 bg-gray-50" id="cta">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
-              <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Ready to dive in?</h2>
+              <h2 className="text-base text-green-900 font-semibold tracking-wide uppercase">Ready to dive in?</h2>
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 Start your free trial today.
               </p>
