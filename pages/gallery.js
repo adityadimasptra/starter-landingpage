@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 
 const gallery = [
   { name: "vco1", src: "/vco-1.jpg" },
@@ -19,33 +18,25 @@ const gallery = [
 const Gallery = () => {
   return (
     <>
-      <Head>
-        <title>Treescoco | Gallery</title>
-        <meta name="keywords" content="ninjas" />
-      </Head>
-      <div>
-        <h1>Gallery</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro
-          reiciendis ea quibusdam nemo nobis hic iure quos odio corporis,
-          laudantium animi laborum voluptatem quia, veniam fuga aperiam officia
-          sequi!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro
-          reiciendis ea quibusdam nemo nobis hic iure quos odio corporis,
-          laudantium animi laborum voluptatem quia, veniam fuga aperiam officia
-          sequi!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro
-          reiciendis ea quibusdam nemo nobis hic iure quos odio corporis,
-          laudantium animi laborum voluptatem quia, veniam fuga aperiam officia
-          sequi!
-        </p>
+    <Head>
+      <title>Domain | Gallery</title>
+      <meta name="keywords" content="ninjas"/>
+    </Head>
+    <div>
+      <div className="grid :grid-flow-col" id="hero">
+        <div className="mx-auto px-6 lg:px-8 flex items-center">
+          <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, iusto corporis. In aspernatur possimus a! Quis temporibus magnam similique, aliquam, accusantium officiis voluptates rerum explicabo veritatis, dolorem deserunt enim accusamus?</h1>
+        </div>
+        <div className="mx-auto px-6 lg:px-8 flex items-center">
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi cumque tempore fuga quidem eius numquam, quos harum a dolorem iste labore minus! Rem hic et quidem vitae, culpa consectetur temporibus?</h1>
+        </div>
+        <div className="mx-auto px-6 lg:px-8 flex items-center">
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi cumque tempore fuga quidem eius numquam, quos harum a dolorem iste labore minus! Rem hic et quidem vitae, culpa consectetur temporibus?</h1>
+        </div>
       </div>
-    </>
-  );
-};
-
+    </div>
+  </>
+   );
+}
+ 
 export default Gallery;
