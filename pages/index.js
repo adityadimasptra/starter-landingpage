@@ -451,7 +451,7 @@ export default function Home() {
               <h2 className="text-base text-green-900 font-semibold tracking-wide uppercase">
                 Ready to dive in?
               </h2>
-              <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900">
                 Start your free trial today.
               </p>
             </div>
