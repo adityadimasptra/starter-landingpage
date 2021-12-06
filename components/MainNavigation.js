@@ -1,16 +1,16 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
-import Link from 'next/link'
-import { Popover, Transition } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import Image from 'next/image'
+import { Fragment } from "react";
+import Link from "next/link";
+import { Popover, Transition } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import Image from "next/image";
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'Products', href: '/products' },
-  { name: 'Gallery', href: '/gallery' },
-  { name: 'About', href: '/about' },
-]
+  { name: "Home", href: "/" },
+  { name: "Products", href: "/products" },
+  { name: "Gallery", href: "/gallery" },
+  { name: "About", href: "/about" },
+];
 
 export default function Navbar() {
   return (
@@ -19,7 +19,10 @@ export default function Navbar() {
         <div className="relative z-10 lg:w-full">
           <Popover>
             <div className="relative px-4 sm:px-6 lg:px-8">
-              <nav className="relative flex items-center justify-between sm:h-10" aria-label="Global">
+              <nav
+                className="relative flex items-center justify-between sm:h-10"
+                aria-label="Global"
+              >
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
                     <Link href="/">
@@ -101,5 +104,5 @@ export default function Navbar() {
         </div>
       </div>
     </div>
-  )
+  );
 }
