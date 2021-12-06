@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="my-8 grid mx-10 lg:mx-48 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
           <div className="h-screen w-screen max-w-full max-h-full py-20">
-            <iframe className="h-screen w-screen max-w-full max-h-full shadow-md rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.6377356071334!2d106.70389751527631!3d-6.311230663520516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e52b5a1453e1%3A0x193e8a87dc2383f6!2sSerpong%20Green%20Park%20Blok%20S!5e0!3m2!1sen!2sid!4v1638813944745!5m2!1sen!2sid" allowfullscreen="" loading="lazy"></iframe>
+            <iframe className="h-screen w-screen max-w-full max-h-full shadow-md rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.6377356071334!2d106.70389751527631!3d-6.311230663520516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e52b5a1453e1%3A0x193e8a87dc2383f6!2sSerpong%20Green%20Park%20Blok%20S!5e0!3m2!1sen!2sid!4v1638813944745!5m2!1sen!2sid" loading="lazy"></iframe>
           </div>
           <div className="flex flex-col justify-center mx-20 lg:items-start md:items-center">
             <h1 className="text-2xl text-gray-500">Address:</h1>
