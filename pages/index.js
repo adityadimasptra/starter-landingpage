@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col items-center my-2 py-14">
-          <h1 className="text-5xl text-gray-500">Our Features</h1>
+          <h1 className="lg:text-5xl text-gray-500 md:text-4xl">Our Features</h1>
           <hr className="w-20 border-t-4 border-green-900 border-opacity-50" />
         </div>
 

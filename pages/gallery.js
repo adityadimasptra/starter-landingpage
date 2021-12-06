@@ -1,4 +1,3 @@
-import { data } from "autoprefixer";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -50,7 +49,7 @@ const Gallery = () => {
       </Head>
       <div>
         <div className="flex flex-col items-center my-2 py-14">
-          <h1 className="text-5xl text-gray-500">Gallery</h1>
+          <h1 className="lg:text-5xl text-gray-500 md:text-4xl">Gallery</h1>
           <hr className="w-20 border-t-4 border-green-900 border-opacity-50" />
         </div>
         <div
