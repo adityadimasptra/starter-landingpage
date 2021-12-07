@@ -12,6 +12,12 @@ const navigation = [
   { name: "About", href: "/about" },
 ];
 
+const socialMedia = [
+  {name:'instagram-teescoco', link:'https://www.instagram.com/adityadimasptra/', icon:'/instagram-dark.svg', active: true},
+  {name:'facebook-teescoco', link:'https://www.facebook.com/adityadimasptra', icon:'/facebook-dark.svg', active: true},
+  {name:'whatsapp-teescoco', link:'https://wa.me/6281553176532', icon:'/whatsapp-dark.svg', active: false}
+]
+
 export default function Navbar() {
   return (
     <div className="h-20 z-20">
@@ -96,6 +102,24 @@ export default function Navbar() {
                         {item.name}
                       </a>
                     ))}
+                  </div>
+                  <div className="flex items-center justify-center py-6 px-5 space-y-6 ">
+                    <div className="">
+                      {socialMedia.map((social,index) => {
+                        if (social.active) return (
+                          <div className="mx-2 inline-flex" key={index}>
+                            <a
+                              href={social.link}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="inline-flex items-center justify-center"
+                            >
+                              <Image className="heartbeat" src={social.icon} alt="site logo" width={35} height={35} />
+                            </a>
+                          </div>
+                        )
+                      })}
+                    </div>
                   </div>
                 </div>
               </Popover.Panel>
