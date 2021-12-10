@@ -40,18 +40,6 @@ const items = [
   },
 ];
 
-function ItemList({ item }) {
-  return (
-    <li className="py-4 flex">
-      <img className="h-20 w-20 rounded-full" src={item.src} alt={item.name} />
-      <div className="ml-3">
-        <p className="text-sm font-medium text-gray-900">{item.name}</p>
-        <p className="text-sm text-gray-500">{item.description}</p>
-      </div>
-    </li>
-  );
-}
-
 export default function Products() {
   return (
     <>
@@ -64,11 +52,34 @@ export default function Products() {
           <h1 className="lg:text-5xl text-gray-500 md:text-4xl">Our Products</h1>
           <hr className="w-32 border-t-4 border-green-900 border-opacity-50" />
         </div>
-        <ul className="divide-y divide-gray-200">
-          {items.map((item, index) => (
-            <ItemList key={index} item={item} />
-          ))}
-        </ul>
+        <div className="bg-gray-100">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
+              <h2 className="text-2xl font-extrabold text-gray-900">Collections</h2>
+
+              <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
+                {items.map((callout) => (
+                  <div key={callout.name} className="group relative">
+                    <div className="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                      <img
+                        src={callout.src}
+                        alt={callout.name}
+                        className="w-full h-full object-center object-cover"
+                      />
+                    </div>
+                    <h3 className="mt-6 text-sm text-gray-500">
+                      <a>
+                        <span className="absolute inset-0" />
+                        {callout.name}
+                      </a>
+                    </h3>
+                    <p className="text-base font-semibold text-gray-900">{callout.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
