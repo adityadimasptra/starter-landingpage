@@ -9,7 +9,7 @@ const navigation = [
   { name: "Home", href: "/" },
   { name: "Products", href: "/products" },
   { name: "Gallery", href: "/gallery" },
-  { name: "About", href: "/about" },
+  { name: "Contact Us", href: "/contact-us" },
 ];
 
 const socialMedia = [
