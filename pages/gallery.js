@@ -3,19 +3,19 @@ import Image from "next/image";
 
 const dataGallery = [ 
   [
-    { name: "vco1", src: "/vco-1.jpg", width: 1280, height: 1280},
-    { name: "vco2", src: "/vco-2.jpg", width: 1280, height: 1280},
+    { name: "vco1", src: "/vco-1.png", width: 1280, height: 1280},
+    { name: "vco2", src: "/vco-2.png", width: 1280, height: 1280},
     { name: "coconutHusk1", src: "/coconut-husk-1.jpg", width: 1280, height: 1280}
   ],
   [
     { name: "coconutHusk2", src: "/coconut-husk-2.jpg", width: 1280, height: 1280},
-    { name: "charcoalCoconutBriquet", src: "/charcoal-coconut.jpg", width: 1280, height: 1280},
-    { name: "cocopeat", src: "/cocopeat.jpg", width: 1280, height: 1280}
+    { name: "charcoalCoconutBriquet", src: "/charcoal-coconut-briquete.jpg", width: 1280, height: 1280},
+    { name: "cocopeat", src: "/cocopeat.png", width: 1280, height: 1280}
   ],
   [
-    { name: "brokenCoconutShell", src: "/broken-coconut.jpg", width: 1280, height: 1280},
-    { name: "coconutAndPalmSugar", src: "/palm-sugar-2.jpg", width: 1280, height: 1280},
-    { name: "coconutAndPalmSugar", src: "/palm-sugar-1.jpg", width: 1280, height: 1280}
+    { name: "brokenCoconutShell", src: "/broken-coconut-shell.jpg", width: 1280, height: 1280},
+    { name: "coconutAndPalmSugar", src: "/palm-sugar-2.png", width: 1280, height: 1280},
+    { name: "coconutAndPalmSugar", src: "/palm-sugar-1.png", width: 1280, height: 1280}
   ]
 ];
 

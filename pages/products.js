@@ -6,7 +6,7 @@ const items = [
     name: "Virgin Coconut Oil (VCO)",
     description:
       "Non-heated extracted oil from coconut that is planted in Semeru volcanic mountain area. VCO is recently being famous due to beneficial for health, cosmetic and medical treatment",
-    src: "/vco-1.jpg",
+    src: "/vco-1.png",
   },
   {
     name: "Coconut Husk",
@@ -18,25 +18,25 @@ const items = [
     name: "Charcoal coconut briquet",
     description:
       "Compressed coconut shell charcoal powder under high mechanical pressure method. Commonly used for sisha, hookah burner or barbeque grill.",
-    src: "/charcoal-coconut.jpg",
+    src: "/charcoal-coconut-briquete.jpg",
   },
   {
     name: "Cocopeat",
     description:
       "Last small size of coconut coir that is frequently utilized for plant growing medium. It has high absorbent capability.",
-    src: "/cocopeat.jpg",
+    src: "/cocopeat.png",
   },
   {
     name: "Broken coconut shell",
     description:
       "Shell of coconut that is reformed into specific size as per costumer requirement. Can be us for an art work as well as barbeque grill.",
-    src: "/broken-coconut.jpg",
+    src: "/broken-coconut-shell.jpg",
   },
   {
     name: "Coconut and Palm sugar",
     description:
       "Extracted from coconut trees. It is an organic, low glycemic, pure and unrefined. Palm sugar can also be provided upon costumer’s request.",
-    src: "/palm-sugar-1.jpg",
+    src: "/palm-sugar-1.png",
   },
 ];
 

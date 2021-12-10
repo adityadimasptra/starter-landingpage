@@ -62,7 +62,7 @@ export default function Home() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white mb-6 bg-blueGray-700">
                   <Image
                     alt="..."
-                    src="/cocopeat.jpg"
+                    src="/cocopeat.png"
                     width={800}
                     height={500}
                     placeholder="blur"
