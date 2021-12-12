@@ -46,6 +46,18 @@ body {
 .blink-1:hover {
 	animation: blink-1 0.6s both;
 }
+
+.item-link {
+  @apply p-3 font-medium text-gray-500;
+}
+.item-link:hover {
+  @apply text-gray-900 border-b-2 border-green-800;
+}
+.item-link.active {
+  @apply text-gray-900 border-b-2 border-green-800;
+}
+
+
 /**
  * ----------------------------------------
  * animation scale-up-center

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Image from "next/image";
+import { useRouter } from 'next/router';
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -19,6 +20,7 @@ const socialMedia = [
 ]
 
 export default function Navbar() {
+  const router = useRouter();
   return (
     <div className="h-20 z-20">
       <div className="w-full bg-white py-6 fixed z-50 items-center inset-x-0 shadow-sm">
@@ -53,7 +55,7 @@ export default function Navbar() {
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                   {navigation.map((item) => (
                     <Link href={item.href} key={item.name}>
-                      <a className="p-3 font-medium text-gray-500 hover:text-gray-900 border-b-2 hover:border-green-800 border-opacity-0">
+                      <a className={router.pathname == item.href ? "item-link active" : "item-link"}>
                         {item.name}
                       </a>
                     </Link>
