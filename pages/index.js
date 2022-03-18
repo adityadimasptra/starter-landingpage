@@ -167,16 +167,17 @@ export default function Home() {
                 Ready to dive in?
               </h2>
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900">
-                Start your free trial today.
+                Check our products list
               </p>
             </div>
             <div className="mt-5 text-center">
               <div className="inline-flex rounded-md shadow">
                 <a
-                  href="#"
+                  href="dummies.pdf"
+                  target="_blank"
                   className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700"
                 >
-                  Get started
+                  Products PDF
                 </a>
               </div>
               <div className="ml-5 inline-flex rounded-md shadow">
@@ -184,7 +185,7 @@ export default function Home() {
                   href="#"
                   className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-green-600 bg-white hover:bg-green-50"
                 >
-                  Learn more
+                  Products Page
                 </a>
               </div>
             </div>
