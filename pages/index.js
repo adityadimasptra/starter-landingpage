@@ -58,18 +58,13 @@ export default function Home() {
         <section className="relative bg-blueGray-100">
           <div className="container mx-auto">
             <div className="flex flex-wrap items-center">
-              <div className="w-10/12 md:w-3/6 lg:max-w-max px-12 md:px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white mb-6 bg-blueGray-700">
-                  <Image
-                    alt="..."
-                    src="/cocopeat.png"
-                    width={800}
-                    height={500}
-                    placeholder="blur"
-                    blurDataURL="/cocopeat.jpg"
-                    className="w-full h-full align-middle rounded-lg"
-                  />
-                </div>
+              <div className="w-full md:w-3/6 lg:max-w-max px-12 md:px-4 mr-auto ml-auto">
+                <iframe
+                  src="https://www.youtube.com/embed/lTRiuFIWV54"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                ></iframe>
               </div>
 
               <div className="w-full md:w-6/12 px-4">
@@ -173,7 +168,7 @@ export default function Home() {
             <div className="mt-5 text-center">
               <div className="inline-flex rounded-md shadow">
                 <a
-                  href="dummies.pdf"
+                  href="cvo-product.pdf"
                   target="_blank"
                   className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700"
                 >
