@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 
 const dataGallery = [ 
   [
@@ -23,17 +22,24 @@ function ColumnGallery ({ props }) {
   return (
     <div className="mx-auto grid grid-cols-1 gap-y-2 hover:z-10">
       {props.map((data, index) => (
-        <Image
-          className="gallery-item rounded-md cursor-pointer transition ease-in-out duration-400 transform hover:z-10 hover:-translate-y-1 hover:scale-95 h-full"
-          src={data.src}
-          width={data.width}
-          height={data.height}
-          objectFit="cover"
-          blurDataURL={data.src}
-          placeholder="blur"
-          alt={data.name}
-          key={index}
-        />
+        // <Image
+        //   className="gallery-item rounded-md cursor-pointer transition ease-in-out duration-400 transform hover:z-10 hover:-translate-y-1 hover:scale-95 h-full"
+        //   src={data.src}
+        //   width={data.width}
+        //   height={data.height}
+        //   objectFit="cover"
+        //   blurDataURL={data.src}
+        //   placeholder="blur"
+        //   alt={data.name}
+        //   key={index}
+        // />
+        <img 
+        className="gallery-item rounded-md cursor-pointer transition ease-in-out duration-400 transform hover:z-10 hover:-translate-y-1 hover:scale-95 h-full object-cover"
+          src={data.src} 
+          alt={data.name} 
+          width="800"
+          height="800" 
+          key={index}/>
       ))}
       
     </div>
@@ -45,7 +51,7 @@ const Gallery = () => {
     <>
       <Head>
         <title>Treescoco | Gallery</title>
-        <meta name="keywords" content="ninjas" />
+        <meta name="keywords" content="virgin coconut oil tangerang selatan" />
       </Head>
       <div>
         <div className="flex flex-col items-center my-2 py-14">

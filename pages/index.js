@@ -1,12 +1,13 @@
 import Head from "next/head";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       <Head>
         <title>Treescoco</title>
-        <meta name="keywords" content="domain" />
+        <meta name="keywords" content="virgin coconut oil tangerang selatan" />
+        <meta name="description" content="Premium VCO (Virgin Coconut Oil) at tangerang selatan"></meta>
+        <meta property="og:title" content="Treescoco" key="title" />
       </Head>
       <div>
         <div
@@ -73,7 +74,7 @@ export default function Home() {
                     <div className="relative flex flex-col mt-4">
                       <div className="px-4 py-5 flex-auto">
                         <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-18 h-18 mb-5 shadow-lg rounded-full bg-white">
-                          <Image
+                          <img
                             alt="..."
                             src="/quality.svg"
                             width="40"
@@ -91,7 +92,7 @@ export default function Home() {
                     <div className="relative flex flex-col min-w-0">
                       <div className="px-4 py-5 flex-auto">
                         <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-18 h-18 mb-5 shadow-lg rounded-full bg-white">
-                          <Image
+                          <img
                             alt="..."
                             src="/commitment.svg"
                             width="40"
@@ -112,7 +113,7 @@ export default function Home() {
                     <div className="relative flex flex-col min-w-0 mt-4">
                       <div className="px-4 py-5 flex-auto">
                         <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-18 h-18 mb-5 shadow-lg rounded-full bg-white">
-                          <Image
+                          <img
                             alt="..."
                             src="/fairness.svg"
                             width="40"
@@ -130,7 +131,7 @@ export default function Home() {
                     <div className="relative flex flex-col min-w-0">
                       <div className="px-4 py-5 flex-auto">
                         <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-18 h-18 mb-5 shadow-lg rounded-full bg-white">
-                          <Image
+                          <img
                             alt="..."
                             src="/partnership.svg"
                             width="40"

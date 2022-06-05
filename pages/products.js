@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 
 const items = [
   {
@@ -45,7 +44,7 @@ export default function Products() {
     <>
       <Head>
         <title>Treescoco | Products</title>
-        <meta name="keywords" content="domain" />
+        <meta name="keywords" content="virgin coconut oil tangerang selatan" />
       </Head>
       <div>
         <div className="flex flex-col items-center my-2 py-14">

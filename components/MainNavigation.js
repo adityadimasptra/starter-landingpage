@@ -3,7 +3,6 @@ import { Fragment } from "react";
 import Link from "next/link";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import Image from "next/image";
 import { useRouter } from 'next/router';
 
 const navigation = [
@@ -14,9 +13,9 @@ const navigation = [
 ];
 
 const socialMedia = [
-  {name:'instagram-teescoco', link:'https://www.instagram.com/adityadimasptra/', icon:'/instagram-dark.svg', active: true},
-  {name:'facebook-teescoco', link:'https://www.facebook.com/adityadimasptra', icon:'/facebook-dark.svg', active: true},
-  {name:'whatsapp-teescoco', link:'https://wa.me/6281553176532', icon:'/whatsapp-dark.svg', active: false}
+  {name:'instagram-teescoco', link:'https://www.instagram.com/treescoco/', icon:'/instagram-dark.svg', active: true},
+  // {name:'facebook-teescoco', link:'https://www.facebook.com/100081079905460', icon:'/facebook-dark.svg', active: true},
+  {name:'whatsapp-teescoco', link:'https://wa.me/6281332693518', icon:'/whatsapp-dark.svg', active: false}
 ]
 
 export default function Navbar() {
@@ -36,7 +35,7 @@ export default function Navbar() {
                     <Link href="/">
                       <a>
                         <span className="sr-only">Workflow</span>
-                        <Image
+                        <img
                           alt="treescoco-logo"
                           width={115}
                           height={35}
@@ -80,7 +79,7 @@ export default function Navbar() {
                 <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div className="px-5 pt-4 flex items-center justify-between">
                     <div>
-                      <Image
+                      <img
                         src="/treescoco_logo.png"
                         width={115}
                         height={35}
@@ -116,7 +115,7 @@ export default function Navbar() {
                               rel="noreferrer"
                               className="inline-flex items-center justify-center"
                             >
-                              <Image className="heartbeat" src={social.icon} alt="site logo" width={35} height={35} />
+                              <img className="heartbeat" src={social.icon} alt="site logo" width={35} height={35} />
                             </a>
                           </div>
                         )

@@ -1,10 +1,7 @@
-
-import Image from 'next/image'
-
 const socialMedia = [
-  {name:'instagram-teescoco', link:'https://www.instagram.com/adityadimasptra/', icon:'/instagram.svg', active: true},
-  {name:'facebook-teescoco', link:'https://www.facebook.com/adityadimasptra', icon:'/facebook.svg', active: true},
-  {name:'whatsapp-teescoco', link:'https://wa.me/6281553176532', icon:'/whatsapp.svg', active: false}
+  {name:'instagram-teescoco', link:'https://www.instagram.com/treescoco/', icon:'/instagram.svg', active: true},
+  {name:'facebook-teescoco', link:'https://www.facebook.com/100081079905460', icon:'/facebook.svg', active: true},
+  {name:'whatsapp-teescoco', link:'https://wa.me/6281332693518', icon:'/whatsapp.svg', active: true}
 ]
 
 export default function Footer() {
@@ -21,7 +18,7 @@ export default function Footer() {
                   rel="noreferrer"
                   className="inline-flex items-center justify-center"
                 >
-                  <Image className="heartbeat" src={social.icon} alt="site logo" width={35} height={35} />
+                  <img className="heartbeat" src={social.icon} alt="site logo" width={35} height={35} />
                 </a>
               </div>
             )
@@ -29,7 +26,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 text-center">
-          Copyright by Adimastra
+          Copyright by treescoco
         </div>
       </div>
     </div>

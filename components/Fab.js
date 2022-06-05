@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 const FloatingButton = () => {
   return ( 
     <div className="fab fixed right-5 z-20 bottom-5 rounded-full">

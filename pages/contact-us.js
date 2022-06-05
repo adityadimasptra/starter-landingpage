@@ -1,11 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
 const About = () => {
   return (
     <>
       <Head>
         <title>Treescoco | Contact Us</title>
-        <meta name="keywords" content="ninjas"/>
+        <meta name="keywords" content="virgin coconut oil tangerang selatan"/>
       </Head>
       <div>
         <div className="flex flex-col items-center my-2 py-14">
@@ -22,24 +21,21 @@ const About = () => {
             <a className="my-4 blink-1" target="_blank" href="https://goo.gl/maps/QokhqnCmRnKXGWxx7" rel="noopener noreferrer">
               Serpong Green Park Blok S16, Ciputat - Tangerang Selatan, Banten, Indonesia.
             </a>
-            <h1 className="mt-5 text-2xl text-gray-500">Our Contacts:</h1>
+            <h1 className="mt-5 text-2xl text-gray-500">Our Contact:</h1>
             <hr className="w-60"/>
             <div className="my-4 flex flex-col">
-              <a className="blink-1 my-2" target="_blank" href="https://wa.me/6281553176532" rel="noopener noreferrer">
-                +62 815-5317-6532
-              </a> 
               <a className="blink-1 my-2" target="_blank" href="https://wa.me/6281332693518" rel="noopener noreferrer">
                 +62 813-3269-3518
-              </a> 
+              </a>
             </div>
-            <h1 className="mt-5 text-2xl text-gray-500">Emails:</h1>
+            <h1 className="mt-5 text-2xl text-gray-500">Our Email:</h1>
             <hr className="w-60"/>
             <div className="my-4 flex flex-col">
-              <a className="blink-1 my-2" target="_blank" href="https://wa.me/6281332693518" rel="noopener noreferrer">
-                example1@gmail.com
+              <a className="blink-1 my-2" target="_blank" href="mailto:contact@treescoco.com" rel="noopener noreferrer">
+                contact@treescoco.com
               </a> 
-              <a className="blink-1 my-2" target="_blank" href="https://wa.me/6281332693518" rel="noopener noreferrer">
-                example2@gmail.com
+              <a className="blink-1 my-2" target="_blank" href="mailto:treescoco.official@gmail.com" rel="noopener noreferrer">
+                treescoco.official@gmail.com
               </a> 
             </div>
           </div>
