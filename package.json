@@ -3,12 +3,9 @@
   "private": true,
   "homepage": "https://treescoco.com",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "play": "next start",
-    "export": "next export",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.2",
