@@ -1,9 +1,10 @@
 {
   "name": "starter",
   "private": true,
+  "homepage": "https://treescoco.com",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "NODE_ENV=production node server.js",
     "play": "next start",
     "export": "next export",
